@@ -1,0 +1,31 @@
+body {
+    padding: 2rem;
+    background-color: #29384D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #90e1ff;
+    text-align: center;
+}
+
+#image {
+    position: absolute;
+    width: 4%;
+}
+
+#refreshButton {
+    background-color: #90e1ff;
+    color: #29384D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border-style: none;
+    padding: 0.5rem 1rem;
+}
+
+#refreshButton:hover {
+    scale: 1.02;
+    background-color: #125f7c;
+    color: #fafafa;
+    transition: all 200ms;
+}
